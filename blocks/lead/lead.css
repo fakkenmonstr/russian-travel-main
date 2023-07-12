@@ -1,0 +1,7 @@
+.lead {
+    position: relative;
+    min-width: 984px;
+    height: 1005px;
+    border: 1px solid red;
+    margin: 56px auto 0;
+}

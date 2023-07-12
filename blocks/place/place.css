@@ -1,0 +1,6 @@
+.place {
+    max-width: 984px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid red;
+}
