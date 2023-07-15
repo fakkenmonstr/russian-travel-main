@@ -23,11 +23,19 @@
 @media screen and (min-width: 1024px) {
     .photo-grid {
         min-width: 928px;
-        margin: 92px 0 0;
+        margin: 92px 48px 0;
         gap: 14px;
         grid-template-columns: repeat(auto-fit, 300px);
         grid-template-rows: repeat(4, 3f);
-        align-items: center;
-        justify-content: center;
+    } 
+}
+
+@media screen and (min-width: 1280px) {
+    .photo-grid {
+        min-width: 1184px;
+        margin: 92px 48px 0;
+        gap: 16px;
+        grid-template-columns: repeat(auto-fit, 284px);
+        grid-template-rows: repeat(3, 4f);
     } 
 }

@@ -19,7 +19,11 @@
     .footer {
         max-width: 928px;
         margin: 92px 48px 24px;
-        flex-direction: row;
-        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .footer {
+        max-width: 1184px;
     }
 }

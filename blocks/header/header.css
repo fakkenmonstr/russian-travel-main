@@ -14,7 +14,6 @@
         min-height: 52px;
         margin: 28px 24px 0;
     }
-    
 }
 
 @media screen and (min-width: 1024px){
@@ -22,5 +21,10 @@
         min-width: 928px;
         margin: 28px 48px 0;
     }
-    
+}
+
+@media screen and (min-width: 1280px){
+    .header {
+        min-width: 1184px;
+    }
 }

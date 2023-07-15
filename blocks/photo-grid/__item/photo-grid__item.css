@@ -19,3 +19,10 @@
         min-height: 225px;
     }
 }
+
+@media screen and (min-width: 1280px) {
+    .photo-grid__item {
+        min-width: 284px;
+        min-height: 213px;
+    }
+}

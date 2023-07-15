@@ -15,3 +15,10 @@
         margin: 48px 48px 0;
     }
 }
+
+@media screen and (min-width: 1280px) {
+    .lead {
+        max-width: 984px;
+        margin: 56px 148px 0;
+    }
+}

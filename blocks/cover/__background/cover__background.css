@@ -24,3 +24,10 @@
         min-height: 640px;
     }
 }
+
+@media screen and (min-width: 1280px) {
+    .cover__background {
+        min-height: 1184px;
+        min-height: 740px;
+    }
+}

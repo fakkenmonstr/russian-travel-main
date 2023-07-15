@@ -14,3 +14,9 @@
         margin: 92px 48px 0;
     }
 }
+
+@media screen and (min-width: 1280px) {
+    .places {
+        margin: 92px 148px 0;
+    }
+}

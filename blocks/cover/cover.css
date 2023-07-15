@@ -22,3 +22,11 @@
         margin: 92px auto 0;
     }
 }
+
+@media screen and (min-width: 1280px) {
+    .cover {
+        min-width: 1184px;
+        min-height: 740px;
+        margin: 92px 48px 0;
+    }
+}

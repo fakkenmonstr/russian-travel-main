@@ -16,7 +16,6 @@
         font-size: 96px;
         line-height: 100px;
     }
-    
 }
 
 @media screen and (min-width: 1024px) {
@@ -25,5 +24,12 @@
         font-size: 96px;
         line-height: 100px;
     }
-    
+}
+
+@media screen and (min-width: 1280px) {
+    .lead__title {
+        margin: 0 132px 32px;
+        font-size: 96px;
+        line-height: 100px;
+    }
 }

@@ -26,3 +26,9 @@
         margin: 379px auto 0;
     }
 }
+
+@media screen and (min-width: 1280px) {
+    .cover__subtitle {
+        margin: 429px auto 0;
+    }
+}
