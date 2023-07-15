@@ -12,3 +12,10 @@
         min-height: 264px;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .photo-grid__item {
+        min-width: 300px;
+        min-height: 225px;
+    }
+}

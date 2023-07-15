@@ -10,6 +10,14 @@
     .place__website {
         min-width: 352px;
         margin: 0;
+        align-content: flex-start;
+        align-self: end;
     }
-    
+}
+
+@media screen and (min-width: 1024px){
+    .place__website {
+        min-width: 456px;
+        margin: 0;
+    }
 }

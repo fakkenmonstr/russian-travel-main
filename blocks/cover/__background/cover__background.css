@@ -16,5 +16,11 @@
         min-height: 768px;
         min-height: 480px;
     }
-    
+}
+
+@media screen and (min-width: 1024px) {
+    .cover__background {
+        min-height: 1024px;
+        min-height: 640px;
+    }
 }

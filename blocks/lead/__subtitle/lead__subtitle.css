@@ -12,10 +12,14 @@
 
 @media screen and (min-width: 768px) {
     .lead__subtitle {
-        min-width: 640px;
         font-size: 30px;
         line-height: 36px;
         margin: 0 64px;
     }
-    
+}
+
+@media screen and (min-width: 1024px) {
+    .lead__subtitle {
+        margin: 0 144px;
+    }
 }

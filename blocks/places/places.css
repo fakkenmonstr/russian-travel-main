@@ -5,8 +5,12 @@
 
 @media screen and (min-width: 768px) {
     .places {
-        min-width: 720px;
         margin: 88px 24px 0;
     }
-    
+}
+
+@media screen and (min-width: 1024px) {
+    .places {
+        margin: 92px 48px 0;
+    }
 }

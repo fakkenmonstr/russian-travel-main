@@ -19,5 +19,10 @@
         line-height: 22px;
         margin: 299px auto 0;
     }
-    
+}
+
+@media screen and (min-width: 1024px) {
+    .cover__subtitle {
+        margin: 379px auto 0;
+    }
 }

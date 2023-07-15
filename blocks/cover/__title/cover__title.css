@@ -19,5 +19,10 @@
         line-height: 76px;
         margin: 115px auto 0;
     } 
-    
+}
+
+@media screen and (min-width: 1024px) {
+    .cover__title {
+        margin: 195px auto 0;
+    } 
 }
