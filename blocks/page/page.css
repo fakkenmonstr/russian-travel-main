@@ -1,3 +1,8 @@
 .page {
     background: #2a2c2f;
+    font-family: 'Inter';
+    overflow: overlay;
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 1280px;
 }

@@ -1,12 +1,13 @@
 .lead__caption {
-    position: absolute;
+    min-width: 158px;
+    text-align: left;
     color: #fff;
     font-size: 10px;
-    font-family: ;
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     line-height: 14px;
     letter-spacing: 1.5px;
     text-transform: uppercase;
-    border: 1px solid red;
+    margin: 0 0 0 16px;
 }

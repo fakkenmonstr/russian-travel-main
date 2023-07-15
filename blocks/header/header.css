@@ -1,7 +1,9 @@
 .header {
-    border: 1px solid red;
     display:flex;
-    margin: 28px auto;
-    max-width: 1184px;
+    min-width: 288px;
+    min-height: 42px;
     justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 16px 16px 0;
 }

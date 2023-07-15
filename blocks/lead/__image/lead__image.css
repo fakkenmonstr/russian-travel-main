@@ -1,4 +1,5 @@
 .lead__image {
-    position: absolute;
-    border: 1px solid red;
+    width: 100%;
+    box-sizing: content-box;
+    margin: 40px 0 8px;
 }

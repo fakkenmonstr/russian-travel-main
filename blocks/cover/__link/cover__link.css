@@ -1,0 +1,7 @@
+.cover__link {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    position: relative;
+    align-items: center;
+}

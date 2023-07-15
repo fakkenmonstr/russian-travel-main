@@ -1,0 +1,12 @@
+.cover__background {
+    position: absolute;
+    width: 100%;
+    min-height: 200px;
+    min-width: 320px;
+    background-image:url(../../../images/__background/__background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    z-index: -1;
+}

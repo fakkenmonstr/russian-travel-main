@@ -1,11 +1,12 @@
 .intro__title {
+    min-width: 288px;
     color: #fff;
-    font-size: 54px;
-    font-family: ;
+    font-size: 32px;
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 900;
-    line-height: 58px;
-    border: 1px solid red;
-    width: 690px;
+    line-height: 35px;
     margin: 0;
+    flex-wrap: wrap;
+    text-align: left;
 }

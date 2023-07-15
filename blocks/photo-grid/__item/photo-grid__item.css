@@ -1,0 +1,7 @@
+.photo-grid__item {
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: content-box;
+    min-height: 216px;
+    min-width: 288px;
+}
