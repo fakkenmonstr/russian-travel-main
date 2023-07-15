@@ -10,3 +10,11 @@
     box-sizing: border-box;
     z-index: -1;
 }
+
+@media screen and (min-width: 768px) {
+    .cover__background {
+        min-height: 768px;
+        min-height: 480px;
+    }
+    
+}

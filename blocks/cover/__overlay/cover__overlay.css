@@ -4,13 +4,20 @@
     opacity: 0.3;
     background: #2A2c2f;
     z-index: 1;
-    
-    
-    
+
+
+
 }
 
 .cover__overlay:hover {
     opacity: 0.8;
-        
 
+
+}
+
+@media screen and (min-width: 768px) {
+    .cover__overlay {
+        min-width: 768px;
+        min-height: 480px;
+    }
 }

@@ -3,4 +3,13 @@
     min-width: 288px;
     flex-wrap: wrap;
     gap: 25px;
+
+}
+
+@media screen and (min-width: 768px) {
+    .place__paragraphs {
+        min-width: 352px;
+    }
+
+    
 }

@@ -5,3 +5,11 @@
     gap: 12px;
     flex-wrap: wrap;
 }
+
+@media screen and (min-width: 768px){
+    .place__website {
+        min-width: 352px;
+        margin: 0;
+    }
+    
+}

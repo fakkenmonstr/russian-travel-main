@@ -3,3 +3,11 @@
     box-sizing: content-box;
     margin: 40px 0 8px;
 }
+
+@media screen and (min-width: 768px) {
+    .lead__image {
+        min-width: 768px;
+        max-height: 480px;
+        margin: 56px 0 8px;
+    }
+}

@@ -6,3 +6,12 @@
     justify-content: center;
     max-width: 100%;
 }
+
+@media screen and (min-width: 768px) {
+    .cover {
+        min-width: 768px;
+        min-height: 480px;
+        margin: 90px auto 0;
+    }
+    
+}

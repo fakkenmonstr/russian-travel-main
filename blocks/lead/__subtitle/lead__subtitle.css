@@ -9,3 +9,13 @@
     margin: 0 16px;
     text-align: center;    
 }
+
+@media screen and (min-width: 768px) {
+    .lead__subtitle {
+        min-width: 640px;
+        font-size: 30px;
+        line-height: 36px;
+        margin: 0 64px;
+    }
+    
+}
