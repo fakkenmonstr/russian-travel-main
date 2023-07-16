@@ -4,7 +4,7 @@
     margin: 64px 16px 0;
     gap: 12px;
     grid-template-columns: repeat(auto-fit, 1fr);
-    grid-template-rows: repeat(12, 1ft);
+    grid-template-rows: repeat(12, 1fr);
     box-sizing: border-box;
 }
 
