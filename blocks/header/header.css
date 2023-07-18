@@ -1,30 +1,30 @@
 .header {
-    display:flex;
-    min-width: 288px;
-    min-height: 42px;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 16px 16px 0;
+  display: flex;
+  min-width: 288px;
+  min-height: 42px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 16px 16px 0;
 }
 
-@media screen and (min-width: 768px){
-    .header {
-        min-width: 720px;
-        min-height: 52px;
-        margin: 28px 24px 0;
-    }
+@media screen and (min-width: 768px) {
+  .header {
+    min-width: 720px;
+    min-height: 52px;
+    margin: 28px 24px 0;
+  }
 }
 
-@media screen and (min-width: 1024px){
-    .header {
-        min-width: 928px;
-        margin: 28px 48px 0;
-    }
+@media screen and (min-width: 1024px) {
+  .header {
+    min-width: 928px;
+    margin: 28px 48px 0;
+  }
 }
 
-@media screen and (min-width: 1280px){
-    .header {
-        min-width: 1184px;
-    }
+@media screen and (min-width: 1280px) {
+  .header {
+    min-width: 1184px;
+  }
 }

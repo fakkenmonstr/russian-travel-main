@@ -1,26 +1,25 @@
 .intro__list {
-    min-width: 288px;
-    color: #fff;
-    font-size: 12px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    line-height: 18px;
-    list-style: none;
-    padding: 0;
-    margin: 34px 0 0 0;
+  min-width: 288px;
+  color: #fff;
+  font-size: 12px;
+  font-family: 'Inter', "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  list-style: none;
+  padding: 0;
+  margin: 34px 0 0 0;
 }
 
 @media screen and (min-width: 768px) {
-    .intro__list {
-        max-width: 720px;
-        margin: 33px 0 0 0;
-    }
+  .intro__list {
+    max-width: 720px;
+    margin: 33px 0 0 0;
+  }
 }
 
 @media screen and (min-width: 1024px) {
-    .intro__list {
-        max-width: 690px;
-        margin: 33px 0 0 0;
-    }
+  .intro__list {
+    max-width: 690px;
+  }
 }
