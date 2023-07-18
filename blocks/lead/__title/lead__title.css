@@ -2,7 +2,7 @@
   color: #fff;
   text-align: center;
   font-size: 40px;
-  font-family: 'Inter';
+  font-family: 'Inter' "Arial", sans-serif;
   font-style: normal;
   font-weight: 900;
   line-height: 44px;
@@ -12,7 +12,9 @@
 
 @media screen and (min-width: 768px) {
   .lead__title {
-    margin: 0 24px 32px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 32px;
     font-size: 96px;
     line-height: 100px;
   }
@@ -20,7 +22,8 @@
 
 @media screen and (min-width: 1024px) {
   .lead__title {
-    margin: 0 104px 32px;
+    margin-left: 104px;
+    margin-right: 104px;
     font-size: 96px;
     line-height: 100px;
   }
@@ -28,8 +31,7 @@
 
 @media screen and (min-width: 1280px) {
   .lead__title {
-    margin: 0 132px 32px;
-    font-size: 96px;
-    line-height: 100px;
+    margin-left: 132px;
+    margin-right: 132px;
   }
 }

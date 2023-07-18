@@ -5,18 +5,23 @@
 
 @media screen and (min-width: 768px) {
   .places {
-    margin: 88px 24px 0;
+    margin-top: 88px;
+    margin-left: 24px;
+    margin-right: 24px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .places {
-    margin: 92px 48px 0;
+    margin-top: 92px;
+    margin-left: 48px;
+    margin-right: 48px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .places {
-    margin: 92px 148px 0;
+    margin-left: 148px;
+    margin-right: 148px;
   }
 }

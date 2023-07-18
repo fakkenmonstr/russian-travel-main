@@ -10,6 +10,7 @@
 @media screen and (min-width: 768px) {
   .place__paragraphs {
     min-width: 352px;
+    margin: 0;
   }
 }
 

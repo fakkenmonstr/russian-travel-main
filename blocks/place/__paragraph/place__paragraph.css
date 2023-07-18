@@ -8,6 +8,9 @@
   line-height: 163%;
   flex-wrap: wrap;
   height: fit-content;
+  margin: 0;
+  margin-left: 16px;
+  margin-right: 16px;
 }
 
 @media screen and (min-width: 768px) {
