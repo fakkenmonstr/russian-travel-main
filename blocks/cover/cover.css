@@ -11,7 +11,7 @@
   .cover {
     min-width: 768px;
     min-height: 480px;
-    margin: 90px auto 0;
+    margin-top: 90px;
   }
 }
 
@@ -19,7 +19,7 @@
   .cover {
     min-width: 1024px;
     min-height: 640px;
-    margin: 92px auto 0;
+    margin-top: 92px;
   }
 }
 
@@ -27,6 +27,7 @@
   .cover {
     min-width: 1184px;
     min-height: 740px;
-    margin: 92px 48px 0;
+    margin-left: 48px;
+    margin-right: 48px;
   }
 }

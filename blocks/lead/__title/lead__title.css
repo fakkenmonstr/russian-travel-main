@@ -2,7 +2,7 @@
   color: #fff;
   text-align: center;
   font-size: 40px;
-  font-family: 'Inter' "Arial", sans-serif;
+  font-family: 'Inter', "Arial", sans-serif;
   font-style: normal;
   font-weight: 900;
   line-height: 44px;
@@ -24,7 +24,6 @@
   .lead__title {
     margin-left: 104px;
     margin-right: 104px;
-    font-size: 96px;
     line-height: 100px;
   }
 }

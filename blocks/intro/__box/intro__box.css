@@ -1,0 +1,25 @@
+.intro__box {
+  margin: auto;
+  min-width: 288px;
+}
+
+@media screen and (min-width: 786px) {
+  .intro__box {
+    max-width: 720px;
+    margin-left: 24px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .intro__box {
+    max-width: 690px;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .intro__box {
+    padding-left: 0;
+  }
+}
+
