@@ -11,7 +11,15 @@
 
 <body class="page">
   <header class="header">
-    <img class="header__logo" src="./images/logo/Логотип_России.svg" alt="Географическая площадь с надписью Россия.">
+    <svg class="header__logo" xmlns="http://www.w3.org/2000/svg" width="142" height="42" fill="none">
+      <path fill="#fff" d="m6 19 2-1 4-5 1-1 1 5-2 1-1-2v3h3l4 1 1-1 3 3 1-5 2 1 1-1 2-1 2-2 1-1h2l1 1-2 4 4-2v-1l2-1 1 2
+        2-2v-1l3-2 1-2h2l3-6 2-3 1 2-1 2v1h2l1 5v5l2 3 1 4-4-3-1-6h-1v4l-3 5-1 6 2 1 1-1 2 2 1 6v3h-2l-1-5-1 2-2-1-2-2-3
+        1v4h-1l-3 3-3-1-2-1-2 1 1 1-2 1-1-1-3 1-3-2-2-3h-1l-2-1v-1l-4-1-1 3-3-2-1-2H7l-1 4H4v4l-1-1-3-7 3-2v-3l-1-3 2-3-1-1 2-2h1Zm46
+        8 3 5h1l-1-2-3-4v1ZM20 17v-1l2-2 2-1h-2l-2 2-2 1v1h2Zm52 16h4v-4h2c4 0 6-2 6-5s-2-5-5-5h-7v14Zm4-7v-4h2l2 2-2 2h-2Zm14 7c3
+        0 5-2 5-5 1-3-2-6-5-6s-5 3-5 6 2 5 5 5Zm0-3-2-2 2-3c1 0 2 1 2 3s-1 2-2 2Zm12 3c3 0 5-1 5-4h-3l-2 1-1-2 1-3 2 2h3c0-3-2-5-5-5s-5
+        3-5 6 2 5 5 5Zm12 0c3 0 5-1 5-4h-4l-1 1c-1 0-2 0-2-2s1-3 2-3l1 2h4c0-3-2-5-5-5-4 0-6 3-6 6s2 5 6 5Zm10-5v-5h-4v10h4l3-6v6h4V23h-4l-3 5Zm14
+        5h4V23h-5c-3 0-5 1-5 3l2 3-2 4h4l1-3h1v3Zm0-6h-1l-1-1 1-1h1v2Z" />
+    </svg>
     <ul class="header__lang-links">
       <li><a class="header__lang-link header__lang-link_active" href="#">Ru</a></li>
       <li><a class="header__lang-link" href="#">En</a></li>
@@ -52,8 +60,8 @@
         </ul>
       </div>
     </section>
-    <section>
-      <ul class="photo-grid">
+    <section class="photo-grid">
+      <ul class="photo-grid__items">
         <li><img class="photo-grid__item" src="./images/photo-grid/Train.jpg" alt="Вид из окна поезда."></li>
         <li><img class="photo-grid__item" src="./images/photo-grid/Mountains.jpg" alt="Вид сверху на горы."></li>
         <li><img class="photo-grid__item" src="./images/photo-grid/Dog.jpg" alt="Собака на рулоне сена."></li>
@@ -163,7 +171,8 @@
             <a class="place__link" href="http://vodlozero.ru" target="_blank">http://vodlozero.ru/</a>
           </div>
           <img class="place__image" src="./images/image/Karelia.jpg" alt="Озеро в лесу.">
-          <p class="place__paragraph">Сибирь заканчивается не&nbsp;на&nbsp;Урале, а&nbsp;в&nbsp;Карелии: образующая
+          <p class="place__paragraph place__paragraph_margin">Сибирь заканчивается не&nbsp;на&nbsp;Урале,
+            а&nbsp;в&nbsp;Карелии: образующая
             тайгу сибирская
             лиственница не&nbsp;растёт западнее Водлозера. Зато здесь она вымахивает на&nbsp;30&nbsp;метров&nbsp;&mdash;
             леса карельских
