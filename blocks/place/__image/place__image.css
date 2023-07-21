@@ -1,14 +1,11 @@
 .place__image {
-  width: 100%;
   box-sizing: content-box;
-  min-width: 320px;
-  min-height: 320px;
+  width: 100%
 }
 
 @media screen and (min-width: 768px) {
   .place__image {
     max-width: 340px;
-    max-height: 340px;
     margin-top: 0;
   }
 }

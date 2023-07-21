@@ -1,15 +1,14 @@
 .cover {
   position: relative;
-  min-width: 320px;
+  min-width: 288px;
   min-height: 200px;
   margin: 66px auto 0;
   justify-content: center;
-  max-width: 100%;
 }
 
 @media screen and (min-width: 768px) {
   .cover {
-    min-width: 768px;
+    min-width: 100%;
     min-height: 480px;
     margin-top: 90px;
   }
@@ -17,7 +16,6 @@
 
 @media screen and (min-width: 1024px) {
   .cover {
-    min-width: 1024px;
     min-height: 640px;
     margin-top: 92px;
   }
@@ -27,7 +25,6 @@
   .cover {
     min-width: 1184px;
     min-height: 740px;
-    margin-left: 48px;
-    margin-right: 48px;
+    margin: auto;
   }
 }

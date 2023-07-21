@@ -1,11 +1,12 @@
 .place__website {
-  min-width: 288px;
+  width: calc(100% - 32px);
   display: flex;
   gap: 12px;
   flex-wrap: wrap;
   margin: 0 auto;
   padding-left: 16px;
   padding-right: 16px;
+  flex-direction: column;
 }
 
 @media screen and (min-width: 768px) {
@@ -13,17 +14,6 @@
     align-content: flex-start;
     align-self: end;
     padding: 0;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .place__website {
-    align-content: center;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .place__website {
-    align-content: flex-end;
+    width: 100%;
   }
 }

@@ -4,7 +4,7 @@
   text-decoration: none;
   align-items: center;
   justify-content: center;
-  min-width: 320px;
+  min-width: 288px;
   min-height: 200px;
   width: 100%;
   background-image: url(../../../images/__background/__background.jpg);
@@ -35,14 +35,13 @@
 
 @media screen and (min-width: 768px) {
   .cover__link {
-    min-width: 768px;
     min-height: 480px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .cover__link {
-    min-width: 1024px;
+
     min-height: 640px;
   }
 }
